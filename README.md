@@ -140,13 +140,14 @@ git clone <repository-url>
 cd <project-folder>
 ```
 ### Bước 3: Tạo môi trường Conda
+```bash
 conda env create -f environment.yml
 conda activate environment
-
+```
 ### Bước 4: Chạy notebook
 
 Chạy lần lượt các notebook trong thư mục notebooks/:
-
+```bash
 - 01_data_collection.ipynb
 
 - 02_data_exploration.ipynb
@@ -156,7 +157,7 @@ Chạy lần lượt các notebook trong thư mục notebooks/:
 - 04_meaningful_questions.ipynb
 
 - 05_data_modeling.ipynb
-
+```
 ### 5. Thư viện và công nghệ sử dụng
 - **Python**: 3.11.5
 
