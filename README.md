@@ -132,21 +132,23 @@ project-folder/
 ## 4. Hướng dẫn chạy dự án
 
 ### Bước 1: Clone repository
+Chạy lệnh sau trong Terminal (Ubuntu hoặc Terminal của VS Code):
 ```bash
 git clone <repository-url>
 ```
 ### Bước 2: Di chuyển vào thư mục dự án
+Chạy trong Terminal (Ubuntu hoặc Terminal của VS Code):
 ```bash
 cd <project-folder>
 ```
 ### Bước 3: Tạo môi trường Conda
+Chạy trong Terminal (Ubuntu hoặc Terminal của VS Code):
 ```bash
 conda env create -f environment.yml
 conda activate environment
 ```
 ### Bước 4: Chạy notebook
-
-Chạy lần lượt các notebook trong thư mục notebooks/:
+Mở Jupyter Notebook, JupyterLab hoặc Visual Studio Code (VS Code), sau đó chạy lần lượt các notebook trong thư mục notebooks/:
 ```bash
 - 01_data_collection.ipynb
 
@@ -158,6 +160,9 @@ Chạy lần lượt các notebook trong thư mục notebooks/:
 
 - 05_data_modeling.ipynb
 ```
+**Lưu ý:**
+  - Nếu chạy notebook trong VS Code, hãy chắc chắn đã chọn đúng Python Interpreter / Conda environment.
+  - Trên Ubuntu, có thể mở notebook bằng lệnh jupyter notebook hoặc jupyter lab.
 ### 5. Thư viện và công nghệ sử dụng
 - **Python**: 3.11.5
 
@@ -182,7 +187,7 @@ Chạy lần lượt các notebook trong thư mục notebooks/:
   - jupyter_contrib_nbextensions 0.7.0
   - ipywidgets 8.1.1
   - nbdime 3.2.1
-  - ipython 8.16.2  # để dùng display, HTML
+  - ipython  # để dùng display, HTML
 
 - **Version Control & Utilities**:
   - git 2.42.0
