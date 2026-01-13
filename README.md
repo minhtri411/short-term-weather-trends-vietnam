@@ -160,30 +160,32 @@ Chạy lần lượt các notebook trong thư mục notebooks/:
 ### 5. Thư viện và công nghệ sử dụng
 - **Python**: 3.11.5
 
-- **Core & Data Handling**: 
-  - pandas 2.1.1  
-  - numpy 1.26.0  
-  - scipy 1.11.3  
-  - openpyxl 3.1.2  
+- **Core & Data Handling**:
+  - pandas 2.1.1
+  - numpy 1.26.0
+  - scipy 1.11.3
+  - openpyxl 3.1.2
 
-- **Machine Learning**: 
-  - scikit-learn 1.3.1  
-  - xgboost 3.1.2  
+- **Machine Learning**:
+  - scikit-learn 1.3.1
+  - xgboost 3.1.2
+  - statsmodels 0.14.0  # cho ARIMA và time series
 
-- **Visualization**: 
-  - matplotlib 3.8.0  
-  - seaborn 0.13.0  
-  - plotly 5.17.0  
+- **Visualization**:
+  - matplotlib 3.8.0
+  - seaborn 0.13.0
+  - plotly 5.17.0
 
-- **Jupyter & Extensions**: 
-  - JupyterLab 4.0.7  
-  - jupyter_contrib_nbextensions 0.7.0  
-  - ipywidgets 8.1.1  
-  - nbdime 3.2.1  
+- **Jupyter & Extensions**:
+  - JupyterLab 4.0.7
+  - jupyter_contrib_nbextensions 0.7.0
+  - ipywidgets 8.1.1
+  - nbdime 3.2.1
+  - ipython 8.16.2  # để dùng display, HTML
 
-- **Version Control & Utilities**: 
-  - git 2.42.0  
-  - pip 23.3  
+- **Version Control & Utilities**:
+  - git 2.42.0
+  - pip 23.3
   - jupyter-black (formatter)
 
 
