@@ -100,6 +100,7 @@ project-folder/
 │
 ├── environment.yml
 ├── LICENSE
+├── reflections.md
 └── README.md
 ```
 
@@ -123,10 +124,13 @@ project-folder/
 - **preprocessing_utils.py** – Hàm tiện ích dùng chung cho làm sạch và chuẩn hóa dữ liệu.
 
 ### Các file khác
-- **environment.yml** – Môi trường Conda và thư viện.  
-- **LICENSE** – Giấy phép sử dụng.  
-- **README.md** – Tài liệu tổng quan dự án.
-
+- **environment.yml** – Môi trường Conda và danh sách thư viện sử dụng trong dự án.  
+- **LICENSE** – Giấy phép sử dụng dự án.  
+- **README.md** – Tài liệu tổng quan dự án và hướng dẫn sử dụng.  
+- **reflections.md** – Báo cáo tổng kết và phản hồi sau khi hoàn thành dự án, bao gồm:
+  - Những khó khăn mỗi thành viên gặp phải.
+  - Những kiến thức và kỹ năng đã học được.
+  - Định hướng cải thiện và phát triển dự án nếu có thêm thời gian.
 ---
 
 ## 4. Hướng dẫn chạy dự án
